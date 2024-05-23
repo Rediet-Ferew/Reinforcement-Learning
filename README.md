@@ -48,3 +48,36 @@ The Upper Confidence Bound (UCB) algorithm balances exploration and exploitation
 To run the code, ensure you have Python and the required libraries installed. You can install the dependencies using:
 ```bash
 pip install gymnasium numpy
+## Result
+Grid World Problem
+Value Iteration Policy:
+↓ → ↓ ←
+↓ ← ↓ ←
+→ ↓ ↓ ←
+← → → ←
+
+Policy Iteration Policy:
+↓ → ↓ ←
+↓ ← ↓ ←
+→ ↓ ↓ ←
+← → → ←
+
+Q-Learning Policy:
+← ← ← ←
+← ← ← ←
+← ← ← ←
+← ← ← ←
+
+UCB Policy:
+→ → ↓ ←
+↓ ← ↓ ←
+→ ↓ ↓ ←
+← → → ←
+
+Single-State Multi-Armed Bandit Problem
+
+Total Reward with Value Iteration: 802.6757855148297
+Total Reward with Policy Iteration: 809.3772497055172
+Total Reward with Q-Learning: 758.5817573977738
+Total Reward with Epsilon-Greedy: 745.7340431470111
+Total Reward with UCB: 644.6473295203247
